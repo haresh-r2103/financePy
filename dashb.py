@@ -1,6 +1,6 @@
 import streamlit as st
-pandas as pd
-numpy as np, yfinance as yf
+import pandas as pd
+import numpy as np, yfinance as yf
 import plotly.express as px
 import requests
 from bs4 import BeautifulSoup
