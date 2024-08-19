@@ -1,13 +1,11 @@
-import streamlit as st
-import pandas as pd
 import numpy as np
-import yfinance as yf
 import plotly.express as px
 import requests
+import streamlit as st
+import yfinance as yf
 from bs4 import BeautifulSoup
 
 st.title("STOCK DASHBOARD")
-
 
 #-----SIDEBAR----------
 ticker = st.sidebar.text_input("Ticker")
