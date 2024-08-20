@@ -1,0 +1,6 @@
+numpy
+plotly
+requests
+streamlit
+yfinance
+beautifulsoup4
